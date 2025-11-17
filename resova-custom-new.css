@@ -172,7 +172,7 @@ main, section {
 	position: static;
 }
 
-.table td.bookingSelectReveal {
+.bookingSelectReveal {
     border-top: 8px solid #ffb806;
     margin: 0 !important;
     position: fixed !important;
