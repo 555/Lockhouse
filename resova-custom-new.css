@@ -243,7 +243,13 @@ section.checkoutContainer aside {
 section.bookingWidgetHeader {
 	display: none;
 }
-
+@media (max-width: 599px) {
+    aside .bookingAsideWrapper .bookingAsideFooter .bookingAsideButtonWrapper,
+	aside .bookingAsideWrapper .bookingAsideTermsWrapper, aside .bookingAsideWrapper .payFullAmountWrapper .button {
+    display: block;
+    transform: translateY(83px);
+	}
+}
 
 /* do we need any of this? */
 
