@@ -234,7 +234,7 @@ aside .bookingAsideWrapper {
 
 section.checkoutContainer aside {
 	position: sticky;
-	top: 0;
+	top: 2rem;
 }
 
 section.bookingWidgetHeader {
