@@ -29,6 +29,17 @@ section.filtersMenu a {
  background-color: #292b41;
 }
 
+.input, input {
+ background-color: #292b41;
+
+}
+
+.inputContainer.ticketSelect .inputSpinnerWrapper {
+ background-color: #292b41;
+
+}
+
+
 section.pageHeading p {
 	font-size: 1rem;
 }
