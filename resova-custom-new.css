@@ -60,6 +60,8 @@ label {
 
 .input, input {
 	background-color: #292b41;
+	font-size: 1rem;
+	min-height: 3rem;
 }
 
 
