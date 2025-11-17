@@ -70,7 +70,10 @@ label {
 	font-size: 1rem;
 	min-height: 3rem;
 }
-
+section.checkoutContainer {
+	padding: 6rem 0 0;
+    background: url(https://555.github.io/Lockhouse/lockhouse-logo.png) 0 0 no-repeat;
+}
 
 
 
