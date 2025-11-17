@@ -54,7 +54,7 @@ section.resovaCalendar table td span.resovaCalendarSlotLabel {
 }
 section.filtersMenu a,
 aside .bookingAsideWrapper .bookingAsideAddNewBooking .button {
- background-color: #292b41;
+ 	background-color: #292b41;
 	font-weight: 400;
 	letter-spacing: 0;
 	font-size: 1rem;
@@ -203,6 +203,15 @@ section.resovaCalendar table td.activeTimeSlot {
 	display: none;
 }
 
+.continueButtonSection  .button.buttonRaised,
+.inventoryItemInformation .inventoryItemBookButtonWrapper .button.buttonRaised {
+	background-color: #ffb806;
+    color: #000;
+}
+aside .bookingAsideWrapper .basketBooking .basketBookingImage {
+	display: none;
+}
+
 /* VERY FUCKING EXPERIMENTAL */
 
 main, section {
@@ -273,10 +282,7 @@ section.resovaCalendar td.standardTimeSlot.availableTimeSlot{
 		color: white;
 	}
 
-.inventoryItemInformation .inventoryItemBookButtonWrapper .button.buttonRaised {
-	background-color: #ffb806;
-        color: #000;
-}
+
 
 .cardTimeSlot.cardTimeSlotUnavailable,
 section.resovaCalendar td.standardTimeSlot.soldOutimeSlot,
@@ -297,9 +303,6 @@ section.resovaCalendar td.standardTimeSlot.blockedTimeSlot { /*typo in their cla
 	}
 
 
-aside .bookingAsideWrapper .basketBooking .basketBookingImage {
-	display: none;
-}
 
 /* dropdown chevron alignment */
 .button.rescheduleDate:after,
