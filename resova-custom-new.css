@@ -19,6 +19,7 @@ section.pageHeading h2 {
 	color: #FFF;
 	font-family: Bricolage Grotesque, sans-serif;
 	letter-spacing: -0.04em;
+	line-height: 1.1;
 }
 
 article h3 {
@@ -224,7 +225,7 @@ main, section {
     position: fixed !important;
     top: 0 !important;
     z-index: 100;
-    background: black;
+    background: rgba(0,0,0,0.8);
     display: flex;
     padding: 2rem !important;
     left: 0;
@@ -261,20 +262,14 @@ section.bookingWidgetHeader {
 	}
 }
 
-/* do we need any of this? */
-
-section.filtersMenu .filtersMenuLeft,
-section.bookingSteps {
-  display: none;
-}
-
 .cardTimesContainer .cardTimeSlotWrapper .cardTimeSlot {
 	border: none;
 }
 
 .cardTimeSlot,
 section.resovaCalendar td.standardTimeSlot.availableTimeSlot{
-		background: #3b8a1e;
+		/*background: #3b8a1e;*/
+	background: #04551E;
 		color: white;
 	}
 
@@ -287,21 +282,37 @@ section.resovaCalendar td.standardTimeSlot.availableTimeSlot{
 
 .cardTimeSlot.cardTimeSlotUnavailable,
 section.resovaCalendar td.standardTimeSlot.soldOutimeSlot,
-section.resovaCalendar td.standardTimeSlot.soldOutTimeSlot,
-section.resovaCalendar td.standardTimeSlot.blockedTimeSlot { /*typo in their class name, written rule to cover both current and probable corrected version */
-		background: #9e242c !important;
-		color: white;
+section.resovaCalendar td.standardTimeSlot.soldOutTimeSlot { /*typo in their class name, written rule to cover both current and probable corrected version */
+		background: #080203 !important;
+		color: #e69f9f;
 	}
 
-	section.resovaCalendar td.standardTimeSlot.closedTimeSlot span{
+	section.resovaCalendar td.standardTimeSlot.blockedTimeSlot {
+		background: #FFB806;
+		color: #000;
+	}
+	section.resovaCalendar td.standardTimeSlot.soldOutimeSlot span,
+	section.resovaCalendar td.standardTimeSlot.soldOuTimeSlot span,
+	section.resovaCalendar td.standardTimeSlot.closedTimeSlot span {
 		font-size: 0px;
 	}
 
-	section.resovaCalendar td.standardTimeSlot.closedTimeSlot span:before{
+	section.resovaCalendar td.standardTimeSlot.soldOutimeSlot span:before,
+	section.resovaCalendar td.standardTimeSlot.soldOuTimeSlot span:before,	
+	section.resovaCalendar td.standardTimeSlot.closedTimeSlot span:before {
 		content: "\e922";
 		font-family: ResovaIcons;
-		font-size: 20px;
+		font-size: 1.5rem;
 	}
+
+
+
+/* do we need any of this? */
+
+section.filtersMenu .filtersMenuLeft,
+section.bookingSteps {
+  display: none;
+}
 
 
 
