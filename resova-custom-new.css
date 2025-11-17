@@ -25,7 +25,8 @@ section.resovaCalendar table td span.resovaCalendarSlotLabel {
 	font-weight: 400;
 	text-transform: none;
 }
-section.filtersMenu a {
+section.filtersMenu a,
+.bookingAsideAddNewBooking a {
  background-color: #292b41;
 }
 
@@ -38,7 +39,12 @@ label {
 	background-color: #292b41;
 }
 
-.textDanger, .inputContainer.requiredInput label:after, span.inputCaption.inputCaptionError {
+.basketActions a {
+	text-decoration: underline;
+}
+
+/*.textDanger,*/
+.inputContainer.requiredInput label:after, span.inputCaption.inputCaptionError {
 	color: #ff858c
 }
 
@@ -50,6 +56,10 @@ label {
 article .articleBoxGroup {
 	background: rgba(1, 1, 1, 0.8);
 
+}
+
+aside .bookingAsideWrapper .basketBooking .singleBookingTotal {
+	margin: 0;
 }
 
 
