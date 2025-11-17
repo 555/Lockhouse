@@ -232,6 +232,7 @@ main, section {
 
 table td.bookingSelectReveal {
 	height: 100vh !important;
+	overflow: scroll !important;
 }
 
 aside .bookingAsideWrapper .bookingAsideAddNewBooking {
