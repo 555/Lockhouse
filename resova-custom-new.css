@@ -8,6 +8,15 @@ body {
     line-height: 1.5;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	font-family: Bricolage Grotesque, sans-serif;
+	color: #FFF;
+}
+
+h2 {
+	font-size: 4rem;
+}
+
 
 body, input, .input, .button.rescheduleDate, nav.mainMenu ul li a, nav.mainMenu ul li .selectWrapper:after, nav.mainMenu ul li select.input, section.filtersMenu a.button, section.filtersMenu .filtersMenuDateSelect a, section.resovaCalendar table td.bookingSelectReveal a.bookingSelectRevealClose, .card .cardContent .cardEventMetaGoBackContainer a.cardEventMetaGoBackButton, .card .cardContent .cardTimesContainer .showMoreTimesContainer a.showMoreTimesButton, .card .cardContent .cardTimesContainer .showMoreTimesContainer a.seeMoreDatesButton, .inventoryItemInformation .inventoryItemSharing ul li a, .card .cardContent .cardTimesContainer .cardTimeSlotWrapper .cardTimeSlot.cardTimeSlotUnavailable:hover, .card .cardActions a, .card .cardShare ul li a, .infoRibbon:before, .infoRibbon p, .infoRibbon a, .infoRibbon a.button.buttonRaised, nav.inventoryItemTabsNavigation ul li a, aside .bookingAsideWrapper .bookingAsideAddNewBooking .button, aside .bookingAsideWrapper .basketBooking .basketBookingItem .basketBookingItemDetails ul.basketActions li a, footer nav.footerMenu ul li a, footer .footerLogo a, .inputSpinnerWrapper .button.buttonRaised.inputSpinnerButton, .articleBox .infoRibbon p, .menu li a {
 color: #FFF;
