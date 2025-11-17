@@ -195,11 +195,6 @@ section.resovaCalendar td.standardTimeSlot.blockedTimeSlot { /*typo in their cla
 		color: white;
 	}
 
-		section.resovaCalendar td.standardTimeSlot.closedTimeSlot {
-		background: transparent;
-		color: white;
-	}
-
 	section.resovaCalendar td.standardTimeSlot.closedTimeSlot span{
 		font-size: 0px;
 	}
