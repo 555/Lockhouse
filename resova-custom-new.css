@@ -58,7 +58,8 @@ article .articleBoxGroup {
 }
 
 
-.button.buttonRaised {
+.button.buttonRaised,
+.buttonRaised {
     min-height: auto;
     min-width: auto;
     margin: 0;
@@ -68,7 +69,7 @@ article .articleBoxGroup {
     line-height: inherit;
     -webkit-box-shadow: none;
     /* box-shadow: none; */
-    outline: 3px solid;
+    outline: 3px solid !important;
     text-transform: none;
 	letter-spacing: -0.02em;
 }
@@ -124,6 +125,10 @@ section.resovaCalendar td.standardTimeSlot.closedTimeSlot {
 	color: #e69f9f;
 }
 
+section.resovaCalendar table td time.resovaCalendarTimetableTime,
+section.resovaCalendar table th span.resovaCalendarWeekDate {
+	font-size: 1.25rem
+}
 
 /* do we need any of this? */
 
