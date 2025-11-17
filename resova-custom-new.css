@@ -75,7 +75,8 @@ article .articleBoxGroup {
     font-variant-numeric: tabular-nums;
 }
 
-section.pageHeading p {
+section.pageHeading p,
+aside .bookingAsideWrapper .basketBooking .basketBookingItem .basketBookingItemDetails p {
 	font-size: 1rem;
 }
 
@@ -98,6 +99,9 @@ td.bookingSelectReveal a.bookingSelectRevealClose, td.editBookingReveal a.bookin
 		background: rgba(1, 1, 1, 0.8);
 	    color: white;
 	}
+
+
+/* do we need any of this? */
 
 section.filtersMenu .filtersMenuLeft,
 section.bookingSteps {
