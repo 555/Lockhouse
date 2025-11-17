@@ -118,6 +118,12 @@ td.bookingSelectReveal a.bookingSelectRevealClose, td.editBookingReveal a.bookin
 	    color: white;
 	}
 
+section.resovaCalendar table td.passedTimeSlot,
+section.resovaCalendar td.standardTimeSlot.closedTimeSlot {
+	background-color: #080203;
+	color: #e69f9f;
+}
+
 
 /* do we need any of this? */
 
