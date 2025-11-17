@@ -58,12 +58,30 @@ article .articleBoxGroup {
 }
 
 
+.button.buttonRaised {
+    min-height: none;
+    min-width: none;
+    margin: 0;
+    padding: 0.25rem 1.5rem;
+    font-size: 1.125rem;
+    font-weight: 800;
+    line-height: inherit;
+    -webkit-box-shadow: none;
+    /* box-shadow: none; */
+    outline: 3px solid;
+    text-transform: none;
+	letter-spacing: -0.02em;
+}
 
 
 
 .inputContainer.ticketSelect .inputSpinnerWrapper {
  	background-color: #292b41;
 
+}
+
+.formRow .formBlock.formBlock50 {
+	width: 100%;
 }
 
 .checkoutCountdown p span {
