@@ -11,13 +11,34 @@ body {
 h1, h2, h3, h4, h5, h6 {
 	font-family: Bricolage Grotesque, sans-serif;
 	color: #FFF;
+	line-height: 1.1;
 }
 
 section.pageHeading h2 {
 	font-size: 4rem;
 	color: #FFF;
 	font-family: Bricolage Grotesque, sans-serif;
+	letter-spacing: -0.04em;
+}
 
+article h3 {
+	font-size: 3rem;
+	letter-spacing: -0.03em;
+}
+
+.articleBoxInner h5 {
+	font-size: 3rem;
+	letter-spacing: -0.02em;
+}
+
+aside .bookingAsideWrapper .bookingAsideHeading h4 {
+	font-size: 1.5rem;
+	letter-spacing: -0.02em;
+}
+
+aside .bookingAsideWrapper .basketBooking .basketBookingItem .basketBookingItemDetails h6 {
+	font-size: 1.25rem;
+	letter-spacing: -0.01em;
 }
 
 section.resovaCalendar table td span.resovaCalendarSlotLabel {
@@ -166,6 +187,10 @@ section.resovaCalendar table td.activeTimeSlot {
 	color: #000;
 }
 
+.section.bookingWidgetHeader {
+	display: none;
+}
+
 /* VERY FUCKING EXPERIMENTAL */
 
 main, section {
@@ -188,6 +213,16 @@ table td.bookingSelectReveal {
 	height: 100vh !important;
 }
 
+.bookingAsideAddNewBooking {
+	positionL: absolute;
+	bottom: 0;
+}
+
+
+section.checkoutContainer aside {
+	position: sticky:
+	top: 0;
+}
 
 
 
