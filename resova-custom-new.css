@@ -27,7 +27,7 @@ article h3 {
 }
 
 .articleBoxInner h5 {
-	font-size: 3rem;
+	font-size: 2rem;
 	letter-spacing: -0.02em;
 }
 
@@ -224,6 +224,9 @@ section.checkoutContainer aside {
 	top: 0;
 }
 
+section.bookingWidgetHeader {
+	display: none;
+}
 
 
 /* do we need any of this? */
