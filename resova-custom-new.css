@@ -43,7 +43,9 @@ label {
 	text-decoration: underline;
 }
 
-/*.textDanger,*/
+.textDanger {
+	color: #FFF;
+}
 .inputContainer.requiredInput label:after, span.inputCaption.inputCaptionError {
 	color: #ff858c
 }
@@ -79,9 +81,9 @@ aside .bookingAsideWrapper .basketBooking .singleBookingTotal {
     line-height: inherit;
     -webkit-box-shadow: none;
     /* box-shadow: none; */
-    outline: 3px solid !important;
     text-transform: none;
 	letter-spacing: -0.02em;
+	border-radius: 0.5rem
 }
 
 
