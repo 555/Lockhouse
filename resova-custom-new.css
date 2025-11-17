@@ -26,8 +26,11 @@ section.resovaCalendar table td span.resovaCalendarSlotLabel {
 	text-transform: none;
 }
 section.filtersMenu a,
-.bookingAsideAddNewBooking a {
+aside .bookingAsideWrapper .bookingAsideAddNewBooking .button {
+ {
  background-color: #292b41;
+	font-weight: 400;
+	letter-spacing: none;
 }
 
 label {
@@ -38,6 +41,9 @@ label {
 .input, input {
 	background-color: #292b41;
 }
+
+
+
 
 .basketActions a {
 	text-decoration: underline !important;
