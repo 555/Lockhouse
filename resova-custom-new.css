@@ -168,11 +168,15 @@ section.resovaCalendar table td.activeTimeSlot {
 
 /* VERY FUCKING EXPERIMENTAL */
 
+main, section {
+	position: static;
+}
+
 .bookingSelectReveal {
     border-top: 8px solid #ffb806;
     margin: 0 !important;
-    position: fixed;
-    top: 0;
+    position: fixed !important;
+    top: 0 !important;
     z-index: 100;
     height: 100vh !important;
     background: black;
