@@ -34,11 +34,17 @@ article h3 {
 aside .bookingAsideWrapper .bookingAsideHeading h4 {
 	font-size: 1.5rem;
 	letter-spacing: -0.02em;
+	margin-bottom: 0.5em
 }
 
 aside .bookingAsideWrapper .basketBooking .basketBookingItem .basketBookingItemDetails h6 {
 	font-size: 1.25rem;
 	letter-spacing: -0.01em;
+	margin-bottom: 0.5em;
+}
+
+aside .bookingAsideWrapper .bookingAsideContent, aside .bookingAsideWrapper .bookingAsideFooter, aside .bookingAsideWrapper .bookingAsideHeading {
+	padding: 0;
 }
 
 section.resovaCalendar table td span.resovaCalendarSlotLabel {
@@ -50,7 +56,8 @@ section.filtersMenu a,
 aside .bookingAsideWrapper .bookingAsideAddNewBooking .button {
  background-color: #292b41;
 	font-weight: 400;
-	letter-spacing: none;
+	letter-spacing: 0;
+	font-size: 1rem;
 }
 
 label {
@@ -218,6 +225,10 @@ table td.bookingSelectReveal {
 aside .bookingAsideWrapper .bookingAsideAddNewBooking {
 	position: absolute;
 	bottom: 0;
+}
+
+aside .bookingAsideWrapper {
+	padding-bottom: 1rem;
 }
 
 
