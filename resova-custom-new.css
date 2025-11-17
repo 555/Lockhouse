@@ -1,0 +1,72 @@
+body {
+	font-size: 16px;
+}
+
+.resovaCalendar table{
+		background: rgba(1, 1, 1, 0.8);
+	    color: white;
+	}
+
+section.filtersMenu .filtersMenuLeft,
+section.bookingSteps {
+  display: none;
+}
+
+.cardTimesContainer .cardTimeSlotWrapper .cardTimeSlot {
+	border: none;
+}
+
+.cardTimeSlot,
+section.resovaCalendar td.standardTimeSlot.availableTimeSlot{
+		background: #3b8a1e;
+		color: white;
+	}
+
+	section.resovaCalendar td.standardTimeSlot.callToBookTimeSlot {
+		background: black;
+		color: white;
+	}
+
+.cardTimeSlot.cardTimeSlotUnavailable,
+section.resovaCalendar td.standardTimeSlot.soldOutimeSlot,
+section.resovaCalendar td.standardTimeSlot.soldOutTimeSlot,
+section.resovaCalendar td.standardTimeSlot.blockedTimeSlot { /*typo in their class name, written rule to cover both current and probable corrected version */
+		background: #9e242c !important;
+		color: white;
+	}
+
+		section.resovaCalendar td.standardTimeSlot.closedTimeSlot {
+		background: transparent;
+		color: white;
+	}
+
+	section.resovaCalendar td.standardTimeSlot.closedTimeSlot span{
+		font-size: 0px;
+	}
+
+	section.resovaCalendar td.standardTimeSlot.closedTimeSlot span:before{
+		content: "\e922";
+		font-family: ResovaIcons;
+		font-size: 20px;
+	}
+
+
+aside .bookingAsideWrapper .basketBooking .basketBookingImage {
+	display: none;
+}
+
+/* dropdown chevron alignment */
+.button.rescheduleDate:after,
+.selectWrapper:after {
+	bottom: 0;
+	top: auto;
+	line-height: 44px;
+	transform: none;
+}
+
+
+/* player qty input  */
+
+.inputSpinnerWrapper input.inputSpinnerInput:disabled {
+	-webkit-text-fill-color: inherit;
+}
