@@ -1,5 +1,11 @@
 body {
 	font-size: 16px;
+	color: #FFF;
+    background-color: #181827;
+    font-family: Bricolage Grotesque, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
 }
 
 .resovaCalendar table{
