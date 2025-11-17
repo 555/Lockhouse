@@ -40,11 +40,24 @@ label {
 }
 
 .basketActions a {
-	text-decoration: underline;
+	text-decoration: underline !important;
+}
+
+aside .bookingAsideWrapper .bookingAsideTransactionBreakdownWrapper table.transactionTotals tr.transactionTotalDueNow td {
+	color: #FFF;
+}
+
+	aside .bookingAsideWrapper .bookingAsideTransactionBreakdownWrapper table td, aside .bookingAsideWrapper .bookingAsideTransactionMetaWrapper table td {
+    width: auto;
+    height: auto;
+    font-size: inherit;
+    line-height: inherit;
+    text-transform: none;
+
 }
 
 .textDanger {
-	color: #FFF;
+	color: #FFF !important;
 }
 .inputContainer.requiredInput label:after, span.inputCaption.inputCaptionError {
 	color: #ff858c
