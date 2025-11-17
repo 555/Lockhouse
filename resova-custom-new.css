@@ -213,14 +213,14 @@ table td.bookingSelectReveal {
 	height: 100vh !important;
 }
 
-.bookingAsideAddNewBooking {
-	positionL: absolute;
+aside .bookingAsideWrapper .bookingAsideAddNewBooking {
+	position: absolute;
 	bottom: 0;
 }
 
 
 section.checkoutContainer aside {
-	position: sticky:
+	position: sticky;
 	top: 0;
 }
 
