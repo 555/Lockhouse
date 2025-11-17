@@ -29,16 +29,51 @@ section.filtersMenu a {
  background-color: #292b41;
 }
 
+label {
+	font-size: 1rem;
+	text-transform: none;
+}
+
 .input, input {
- background-color: #292b41;
+	background-color: #292b41;
+}
+
+.textDanger, .inputContainer.requiredInput label:after, span.inputCaption.inputCaptionError {
+	color: #ff858c
+}
+
+.checkbox label.error, input.error, select.error, textarea.error {
+	border-color: #ff858c;
+	background-color: #11060A;
+}
+
+article .articleBoxGroup {
+	background: rgba(1, 1, 1, 0.8);
 
 }
+
+
+.input:focus, input:focus {
+	border-color: #ffb806;
+}
+
+
+
+
 
 .inputContainer.ticketSelect .inputSpinnerWrapper {
- background-color: #292b41;
+ 	background-color: #292b41;
 
 }
 
+.checkoutCountdown p span {
+    position: static;
+    top: 0;
+    font-size: 1.25rem;
+    line-height: inherit;
+    letter-spacing: 0;
+    font-variant-numeric: tabular-nums;
+}
 
 section.pageHeading p {
 	font-size: 1rem;
