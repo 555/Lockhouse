@@ -244,6 +244,11 @@ table td.bookingSelectReveal {
 	overflow: scroll !important;
 }
 
+
+table td.bookingSelectReveal .inventoryListItem figure.inventoryListMediaContainer {
+	height: 100%;
+}
+
 aside .bookingAsideWrapper .bookingAsideAddNewBooking {
 	position: absolute;
 	bottom: 0;
