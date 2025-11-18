@@ -239,9 +239,10 @@ main, section {
     left: 0;
 }
 
-table td.bookingSelectReveal {
+section.resovaCalendarList table tr td.bookingSelectReveal {
 	height: 100vh !important;
 	overflow: scroll !important;
+	padding: 2rem !important;
 }
 
 
