@@ -305,6 +305,14 @@ section.resovaCalendar td.standardTimeSlot.soldOutTimeSlot { /*typo in their cla
 		background: #FFB806;
 		color: #000;
 	}
+
+	section.resovaCalendar td.standardTimeSlot.blockedTimeSlot:hover {
+		background: #e2e510;
+		cursor: pointer;
+	}
+
+
+
 	section.resovaCalendar td.standardTimeSlot.soldOutimeSlot span,
 	section.resovaCalendar td.standardTimeSlot.soldOuTimeSlot span,
 	section.resovaCalendar td.standardTimeSlot.closedTimeSlot span {
