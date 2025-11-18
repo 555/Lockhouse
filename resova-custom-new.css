@@ -213,6 +213,11 @@ aside .bookingAsideWrapper .basketBooking .basketBookingImage {
 	display: none;
 }
 
+section.resovaCalendar table td, section.resovaCalendar table th {
+	height: auto;
+}
+
+
 /* VERY FUCKING EXPERIMENTAL */
 
 main, section {
@@ -225,7 +230,7 @@ main, section {
     position: fixed !important;
     top: 0 !important;
     z-index: 100;
-    background: rgba(0,0,0,0.8);
+    background: #070608;
     display: flex;
     padding: 2rem !important;
     left: 0;
@@ -268,10 +273,16 @@ section.bookingWidgetHeader {
 
 .cardTimeSlot,
 section.resovaCalendar td.standardTimeSlot.availableTimeSlot{
-		/*background: #3b8a1e;*/
 	background: #04551E;
 		color: white;
 	}
+
+section.resovaCalendar td.standardTimeSlot.availableTimeSlot:hover{
+	background: #3b8a1e;
+		color: white;
+	}
+
+
 
 	section.resovaCalendar td.standardTimeSlot.callToBookTimeSlot {
 		background: black;
