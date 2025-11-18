@@ -72,6 +72,7 @@ label {
 
 .input, input {
 	background-color: #292b41;
+	background: #010101;
 	font-size: 1rem;
 	min-height: 3rem;
 }
@@ -116,6 +117,7 @@ aside .bookingAsideWrapper .bookingAsideTransactionBreakdownWrapper table.transa
 
 article .articleBoxGroup {
 	background: rgba(1, 1, 1, 0.8);
+	border-radius: 1rem;
 
 }
 
