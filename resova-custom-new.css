@@ -239,6 +239,7 @@ main, section {
     left: 0;
 }
 
+table td.bookingSelectReveal,
 table tr td.bookingSelectReveal {
 	height: 100vh !important;
 	overflow: scroll !important;
