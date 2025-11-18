@@ -8,6 +8,13 @@ body {
     line-height: 1.5;
 }
 
+setion {
+	margin: 0 auto;
+}
+
+.section.pageHeading {
+	margin-bottom: 0;
+}
 h1, h2, h3, h4, h5, h6 {
 	font-family: Bricolage Grotesque, sans-serif;
 	color: #FFF;
@@ -28,7 +35,7 @@ article h3 {
 }
 
 .articleBoxInner h5 {
-	font-size: 2rem;
+	font-size: 1.5rem;
 	letter-spacing: -0.02em;
 }
 
