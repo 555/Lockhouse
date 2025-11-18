@@ -251,7 +251,8 @@ table tr td.bookingSelectReveal {
 
 table tr:hover td:first-child {
 	/*filter: brightness(1.125) !important;*/
-	background-color: rgba(0,0,0,0.75)
+	background-color: rgba(0,0,0,0.75);
+	color: #ffb806;
 }
 
 @media (min-width: 256px) {
