@@ -221,6 +221,12 @@ section.resovaCalendar table td, section.resovaCalendar table th {
 }
 
 
+table tr:hover td:first-child {
+	/*filter: brightness(1.125) !important;*/
+	background-color: rgba(0,0,0,0.75);
+	color: #ffb806;
+}
+
 /* VERY FUCKING EXPERIMENTAL */
 
 main, section {
@@ -234,7 +240,7 @@ main, section {
     top: 0 !important;
     z-index: 100;
     background: #070608;
-	background: #181827;
+	background: #181827 !important;
     display: flex;
     padding: 2rem !important;
     left: 0;
@@ -249,11 +255,6 @@ table tr td.bookingSelectReveal {
 }
 }
 
-table tr:hover td:first-child {
-	/*filter: brightness(1.125) !important;*/
-	background-color: rgba(0,0,0,0.75);
-	color: #ffb806;
-}
 
 @media (min-width: 256px) {
 section.resovaCalendarList table td:last-child,
