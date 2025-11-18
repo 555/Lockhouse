@@ -77,6 +77,11 @@ label {
 	min-height: 3rem;
 }
 
+section.filtersMenu {
+	justify-content: flex-end;
+	margin-bottom: 0;
+}
+
 .filtersMenuDateSelect,
 section.filtersMenu:last-child {
 	display: none;
