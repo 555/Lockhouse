@@ -192,11 +192,7 @@ td.bookingSelectReveal a.bookingSelectRevealClose, td.editBookingReveal a.bookin
 	    color: white;
 	}
 
-section.resovaCalendar table td.passedTimeSlot,
-section.resovaCalendar td.standardTimeSlot.closedTimeSlot {
-	background-color: #080203;
-	color: #e69f9f;
-}
+
 
 section.resovaCalendar table td time.resovaCalendarTimetableTime,
 section.resovaCalendar table th span.resovaCalendarWeekDate {
@@ -326,7 +322,11 @@ section.resovaCalendar td.standardTimeSlot.availableTimeSlot:hover{
 		color: white;
 	}
 
-
+section.resovaCalendar table td.passedTimeSlot,
+section.resovaCalendar td.standardTimeSlot.closedTimeSlot {
+	background-color: #080203;
+	color: #e69f9f;
+}
 
 .cardTimeSlot.cardTimeSlotUnavailable,
 section.resovaCalendar td.standardTimeSlot.soldOutimeSlot,
