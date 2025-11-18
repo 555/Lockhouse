@@ -48,6 +48,10 @@ aside .bookingAsideWrapper .bookingAsideContent, aside .bookingAsideWrapper .boo
 	padding: 0;
 }
 
+section.checkoutContainer article, section.checkoutContainer aside {
+	padding: 1.5rem;
+}
+
 section.resovaCalendar table td span.resovaCalendarSlotLabel {
 	font-size: 1em;
 	font-weight: 400;
@@ -73,7 +77,7 @@ label {
 }
 section.checkoutContainer {
 	padding: 6rem 0 0;
-    background: url(https://555.github.io/Lockhouse/lockhouse-logo.png) 0 0 no-repeat;
+    background: url(https://555.github.io/Lockhouse/lockhouse-logo.png) 1.5rem 0 no-repeat;
 }
 
 section.resovaCalendar table td, section.resovaCalendar table th {
