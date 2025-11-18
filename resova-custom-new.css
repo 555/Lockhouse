@@ -67,7 +67,7 @@ aside .bookingAsideWrapper .bookingAsideAddNewBooking .button {
 
 
 section.filtersMenu a:hover,
-button.buttonRaised.inputSpinnerButton:hover,
+.button.buttonRaised.inputSpinnerButton:hover,
 aside .bookingAsideWrapper .bookingAsideAddNewBooking .button:hover {
 	background-color: #343755;
 }
