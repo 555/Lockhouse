@@ -249,8 +249,8 @@ table tr td.bookingSelectReveal {
 }
 }
 
-tr:hover {
-	filter: brightness(1.25);
+table tr:hover td {
+	filter: brightness(1.125) !important;
 }
 
 @media (min-width: 256px) {
