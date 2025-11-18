@@ -234,6 +234,7 @@ main, section {
     top: 0 !important;
     z-index: 100;
     background: #070608;
+	background: #181827;
     display: flex;
     padding: 2rem !important;
     left: 0;
