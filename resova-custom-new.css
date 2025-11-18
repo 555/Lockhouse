@@ -251,6 +251,7 @@ table td.bookingSelectReveal,
 table tr td.bookingSelectReveal {
 	height: 100vh !important;
 	overflow: scroll !important;
+	background: #181827 !important;	
 	padding: 2rem !important;
 }
 }
