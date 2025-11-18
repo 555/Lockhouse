@@ -221,7 +221,7 @@ section.resovaCalendar table td, section.resovaCalendar table th {
 }
 
 
-table tr:hover td:first-child {
+table tr:hover > td.standardTimeSlot {
 	/*filter: brightness(1.125) !important;*/
 	background-color: rgba(0,0,0,0.75);
 	color: #ffb806;
