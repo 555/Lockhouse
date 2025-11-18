@@ -65,6 +65,12 @@ aside .bookingAsideWrapper .bookingAsideAddNewBooking .button {
 	font-size: 1rem;
 }
 
+
+section.filtersMenu a:hover,
+inputSpinnerButton:hover,
+aside .bookingAsideWrapper .bookingAsideAddNewBooking .button:hover {
+	background-color: #343755;
+}
 label {
 	font-size: 1rem;
 	text-transform: none;
