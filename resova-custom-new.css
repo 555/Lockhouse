@@ -249,8 +249,11 @@ table tr td.bookingSelectReveal {
 }
 }
 
+@media (min-width: 256px) {
+section.resovaCalendarList table td:last-child,
 section.resovaCalendarList table tr td.:last-child {
-	padding: 0 0 !important
+	padding-right: 2rem !important;
+}
 }
 
 table td.bookingSelectReveal .inventoryListItem figure.inventoryListMediaContainer {
