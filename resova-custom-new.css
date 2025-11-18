@@ -76,6 +76,9 @@ section.checkoutContainer {
     background: url(https://555.github.io/Lockhouse/lockhouse-logo.png) 0 0 no-repeat;
 }
 
+section.resovaCalendar table td, section.resovaCalendar table th {
+	height: auto;
+}
 
 
 .basketActions a {
