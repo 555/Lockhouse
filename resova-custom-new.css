@@ -8,11 +8,11 @@ body {
     line-height: 1.5;
 }
 
-setion {
+section {
 	margin: 0 auto;
 }
 
-.section.pageHeading {
+section.pageHeading {
 	margin-bottom: 0;
 }
 h1, h2, h3, h4, h5, h6 {
