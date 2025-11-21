@@ -8,6 +8,10 @@ body {
     line-height: 1.5;
 }
 
+app-container {
+	padding-top: 0 !important;
+}
+
 section {
 	margin: 0 auto;
 }
@@ -19,6 +23,10 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: Bricolage Grotesque, sans-serif;
 	color: #FFF;
 	line-height: 1.1;
+}
+
+header.bookingSiteHeader {
+	display: none;
 }
 
 section.pageHeading h2 {
@@ -212,6 +220,12 @@ aside .bookingAsideWrapper .basketBooking .singleBookingTotal {
     line-height: inherit;
     letter-spacing: 0;
     font-variant-numeric: tabular-nums;
+}
+
+
+/* Creditr card number text color */
+.ElementsApp, .ElementsApp .InputElement {
+	color: #FFF !important;
 }
 
 section.pageHeading p,
