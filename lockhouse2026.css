@@ -5,3 +5,8 @@ body {
 .mydp {
   left: 0 !important;
 }
+
+
+.filtersMenuLeft {
+  display: none !important;
+}
