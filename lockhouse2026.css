@@ -1,12 +1,24 @@
 body {
-  /* background: red;*/
+  background: #181926;
 }
 
 .mydp {
-  left: 0 !important;
+  left: 0;
+}
+
+a.button.filterSort.filterQty.menuElement {
+  display: none;
+}
+
+a.button.filterSort.menuElement {
+  display: none;
+}
+
+section.filtersMenu {
+  justify-content: flex-start;
 }
 
 
-.filtersMenuLeft {
-  display: none !important;
+.filtersMenuRight.prevNextGroup {
+  margin-left: auto;
 }
